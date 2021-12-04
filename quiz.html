@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+   <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+     rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+     integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+     <link rel="stylesheet" href="style.css">
+
+   </head>
+<body style="background-image: url('img/m1.jpg');  background-repeat: no-repeat; background-color: black;">
+    <img src="img/logowhite.png" style="width: 11%; height: 6vh; margin-top: 1%; margin-left: 1%;">
+
+    <div class="container quiz-section py-4 px-4" id="quiz">
+        <div class="question-header">
+            <h2 id="question" class="fw-bold">Question Text</h2>
+            <hr>
+            <ul class="list-unstyled py-3">
+                <li class="list-item py-3">
+                    <input type="radio" name="answer" id="a" class="answer">
+                    <label for="a" id="a_text" class="mx-3 fw-bold">Answer</label>
+                </li>
+                <li class= "list-item py-3">
+                    <input type="radio" name="answer" id="b" class="answer">
+                    <label for="b" id="b_text" class="mx-3 fw-bold">Answer</label>
+                </li>
+                <li class="list-item py-3">
+                    <input type="radio" name="answer" id="c" class="answer">
+                    <label for="c" id="c_text" class="mx-3 fw-bold">Answer</label>
+                </li>
+                <li class="list-item py-3">
+                    <input type="radio" name="answer" id="d" class="answer">
+                    <label for="d" id="d_text" class="mx-3 fw-bold">Answer</label>
+                </li>
+                
+            </ul>
+            <button id="submit" class=" submit-btn btn btn-lg btn-dark py-2" type="submit">Submit</button>
+        </div>
+    </div>
+  <script src="script.js" ></script>    
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

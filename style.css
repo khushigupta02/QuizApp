@@ -1,0 +1,68 @@
+*{
+    padding: 0%;
+    margin: 0;
+    text-decoration: none;
+    font-family: san-serif;
+
+}
+
+.top-section-text{
+    position: absolute;
+    top: 200px;
+    right: 150px;
+    color: white;
+    font-family: san-serif;
+}
+.top-logo{
+    position: absolute;
+    top: 30px;
+    right: 100px;
+}
+.top-section-text .btn {
+    cursor: pointer;
+}
+.top-section-text .btn a{
+    text-decoration: none;
+    color: white;
+}
+
+.welcome-section{
+  width: 40%;
+  padding: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+ background-color:#f5d742;
+ border-radius: 20px 10px;
+ margin-top: 240px;
+ margin-left: 40%;
+}
+.welcome-section .btn {
+    cursor: pointer;
+}
+.welcome-section .btn a{
+    text-decoration: none;
+    color: white;
+
+}
+.welcome-section .btn a:hover{
+    opacity: 0.7;
+}
+
+
+.quiz-section{
+    width: 48%;
+    height: 70vh;
+    background-color: rgb(211, 40, 40);
+    border-radius: 20px 10px;
+    margin-left: 35%;
+    margin-top: 4%;
+
+
+}
+.submit-btn{
+    opacity: 0.9;
+    cursor: pointer;
+}
+.submit-btn:focus{
+    background-color: #f5d742;
+    color: black;
+}
